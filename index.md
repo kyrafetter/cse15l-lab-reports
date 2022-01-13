@@ -22,3 +22,9 @@ if (1 > 0) {
   System.out.println("1 is greater than 0!");
 }
 ```
+## Here are some new changes
+* This text was added in VSCode!!!
+* Here is some more text
+
+1. And a new list
+2. How cool!
