@@ -1,5 +1,5 @@
 # CSE 15L Lab Reports
-![Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FUniversity_of_California%2C_San_Diego&psig=AOvVaw32nV9Kl8Omu6HcpVsIZRhx&ust=1642188632519000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMDAzcO7r_UCFQAAAAAdAAAAABAD)
+![Image](https://upload.wikimedia.org/wikipedia/en/thumb/4/44/University_of_California%2C_San_Diego_seal.svg/1200px-University_of_California%2C_San_Diego_seal.svg.png)
 ---
 ## Types of text formats
 *Italic*
