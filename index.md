@@ -1,4 +1,7 @@
 # CSE 15L Lab Reports
+
+[Lab Report 1](lab-report-1-week-2.html)
+[Lab Report 1](https://kyrafetter.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 ![Image](https://www.kindpng.com/picc/m/151-1510104_computer-science-clip-art-hd-png-download.png)
 ---
 ## Types of text formats
