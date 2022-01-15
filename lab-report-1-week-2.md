@@ -16,7 +16,7 @@ Welcome to my first tutorial! In this lesson we will learn the basics of connect
 
 ## Procedure
 
-> **1. Downloading and Installing VScode**
+## Downloading and Installing VScode
 
 1. Navigate to the Visual Studio Code website ([click here](https://code.visualstudio.com/)) to download and install VScode on your device. Make sure the you select the correct version for your device. In this case, we select "Download for Windows": 
 ![Image](Screenshot%202022-01-13%20215708.png)
@@ -24,7 +24,7 @@ Welcome to my first tutorial! In this lesson we will learn the basics of connect
 2. When installed, open VScode and you should get a window like this:
 ![Image](Screenshot%202022-01-13%20120515.png)
 
-> **2. Remotely Connecting to a Server**
+## Remotely Connecting to a Server
 
 1. Install OpenSSH ([click here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)). This program enables connection to a server via ssh.
 
@@ -44,7 +44,7 @@ ssh cs15lwi22zzz@ieng6.ucsd.edu
 
 7. **Note**: This indicates that you (the client) have logged into computer 201 (the server) of the ieng6 cluster. Yay!
 
-> **3. Trying Some Commands**
+## Trying Some Commands
 
 **Note**: `~` represents your home/base directory
 1. These are some useful bash commands to try:
@@ -78,7 +78,7 @@ ssh cs15lwi22zzz@ieng6.ucsd.edu
     **Example of `exit`**
     ![Image](exit.png)
 
-> **4. Moving Files over with scp**
+## Moving Files over with scp
 
 1. When working remotely, it is useful to be able to copy files back and forth between the client and server. Here, we will use `scp`  as seen below to copy files via secure copy from the client to the server: 
 ```
@@ -89,7 +89,7 @@ scp <file(s)> <destination directory path>
 ![Image](scp.png)
 4. **Note**: this is a time consuming process (change/save file locally, copy updated file to remote server, log into remote server and run file), taking >2min. In the next section, we will see how to more this process more efficient.
 
-> **5. Setting an SSH Key**
+## Setting an SSH Key
 
 1. Every time we log in or run `scp`, we need to type our password. **Solution**: use an `ssh` key. `ssh` keys use the `ssh-keygen ` program to create a public key and private key file. The public key is copied to the server and the private key is stored on the client. The `ssh` command uses the pair of files instead of a password. 
 
@@ -108,7 +108,7 @@ scp <file(s)> <destination directory path>
 8. Congrats! You now can `ssh` and `scp` from your client to the server without entering your password:
 ![Image](no_password.png)
 
-> **6. Optimizing Remote Running**
+## Optimizing Remote Running
 
 1. Here are some tips and tricks for navigating a remote connection more efficiently:
     * Place quotes around a command at the end of the `ssh` command to directly run it on the remote server and then automatically exit. 
@@ -116,14 +116,12 @@ scp <file(s)> <destination directory path>
     * Use the up-arrow on your keyboard to recall the last command run
 
 2. Examples
+* log in, list the home directory on remote server, log out
 ```
-# log in, list the home directory on remote server, log out
-
 ssh cse15lzzz@ieng6.ucsd.edu "ls"
 ```
+* copy file to another file, compile new file, run new file all in one line
 ```
-# copy file to another file, compile new file, run new file all in one line
-
 cp WhereAmI.java OtherMain.java; javac OtherMain.java; java OtherMain
 ```
 3. An important distinction:
