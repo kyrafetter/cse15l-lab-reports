@@ -44,7 +44,7 @@ Welcome to my second tutorial! In this lesson we will review the iterative proce
 ### **Code Change 2**
 * **Code Change Diff**
 ![Image](code_change_diff2.png)
-* [**Failure-Inducing Input (click here or see below)**](test-file2.md): a file with solely `)[` 
+* [**Failure-Inducing Input (click here or see below)**](test-file2.md): a file with `)[`
 ![Image](test_file2.png)
 * **Symptom of Failure-Inducing Input**
 ```
