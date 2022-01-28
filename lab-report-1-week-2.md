@@ -1,3 +1,5 @@
+[Home](index.html)
+
 # Lab 1: Remote Access and the File System 
 
 *January 13, 2022*

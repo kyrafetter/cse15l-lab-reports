@@ -6,6 +6,7 @@
 
 ## Table of Contents
 1. [Week 1: Remote Access and the File System (January 13, 2022)](lab-report-1-week-2.html)
+2. [Week 2: Debugging (January 28, 2022)](lab-report-2-week-4.html)
 
 ## Resources
 * [Course Canvas Webpage](https://canvas.ucsd.edu/courses/32416)
