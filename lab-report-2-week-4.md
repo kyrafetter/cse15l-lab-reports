@@ -72,7 +72,7 @@ java MarkdownParse test-file2.md
 ![Image](test_file3.png)
 * **Symptom of Failure-Inducing Input**
 ```
-// command used:
+// commmand used:
 java MarkdownParse test-file3.md
 
 // symptom:
