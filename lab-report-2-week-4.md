@@ -32,7 +32,12 @@ Welcome to my second tutorial! In this lesson we will review the iterative proce
 * [**Failure-Inducing Input (click here or see below)**](test-file1.md): a file with two normal links sandwiching a link with `[click here]()` inside the brackets of the link construct
 ![Image](test_file1.png)
 * **Symptom of Failure-Inducing Input**
+
 ```
+// command used:
+java MarkdownParse test-file1.md
+
+// symptom:
 [https://alink.com, , https://alink.com]
 ```
 * **Expected Output**
@@ -48,6 +53,10 @@ Welcome to my second tutorial! In this lesson we will review the iterative proce
 ![Image](test_file2.png)
 * **Symptom of Failure-Inducing Input**
 ```
+// command used:
+java MarkdownParse test-file2.md
+
+// symptom:
 // infinite loop
 ```
 * **Expected Output**
@@ -63,6 +72,10 @@ Welcome to my second tutorial! In this lesson we will review the iterative proce
 ![Image](test_file3.png)
 * **Symptom of Failure-Inducing Input**
 ```
+// command used:
+java MarkdownParse test-file3.md
+
+// symptom:
 [some link, ]
 ```
 * **Expected Output**
