@@ -52,6 +52,7 @@ java MarkdownParse test-file1.md
 * [**Failure-Inducing Input (click here or see below)**](test-file2.md): a file with `)[`
 ![Image](test_file2.png)
 * **Symptom of Failure-Inducing Input**
+
 ```
 // command used:
 java MarkdownParse test-file2.md
@@ -59,7 +60,9 @@ java MarkdownParse test-file2.md
 // symptom:
 // infinite loop
 ```
+
 * **Expected Output**
+
 ```
 []
 ```
@@ -71,6 +74,7 @@ java MarkdownParse test-file2.md
 * [**Failure-Inducing Input (click here or see below)**](test-file3.md): a normal link followed by `[]`, then text, and then `()`, each being on separate lines
 ![Image](test_file3.png)
 * **Symptom of Failure-Inducing Input**
+
 ```
 // commmand used:
 java MarkdownParse test-file3.md
@@ -78,7 +82,9 @@ java MarkdownParse test-file3.md
 // symptom:
 [some link, ]
 ```
+
 * **Expected Output**
+
 ```
 [some link]
 ```
