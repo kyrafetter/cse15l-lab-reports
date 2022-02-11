@@ -36,7 +36,8 @@ Welcome to my second tutorial! In this lesson we will review the iterative proce
 ```
 // command used:
 java MarkdownParse test-file1.md
-
+```
+```
 // symptom:
 [https://alink.com, , https://alink.com]
 ```
@@ -56,13 +57,13 @@ java MarkdownParse test-file1.md
 ```
 // command used:
 java MarkdownParse test-file2.md
-
+```
+```
 // symptom:
 // infinite loop
 ```
 
 * **Expected Output**
-
 ```
 []
 ```
@@ -78,7 +79,8 @@ java MarkdownParse test-file2.md
 ```
 // commmand used:
 java MarkdownParse test-file3.md
-
+```
+```
 // symptom:
 [some link, ]
 ```
