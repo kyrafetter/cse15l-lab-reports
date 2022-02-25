@@ -8,6 +8,7 @@
 1. [Report 1: Remote Access and the File System (January 13, 2022)](lab-report-1-week-2.html)
 2. [Report 2: Debugging (January 28, 2022)](lab-report-2-week-4.html)
 3. [Report 3: It Works on My Machine (February 10, 2022)](lab-report-3-week-6.html)
+4. [Report 4: Code Review and Automating Testing (February 24, 2022)](lab-report-4-week-8.html)
 
 ## Resources
 * [Course Canvas Webpage](https://canvas.ucsd.edu/courses/32416)
