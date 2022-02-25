@@ -18,6 +18,7 @@ Welcome to my fourth tutorial! In this lesson we will compare two implementions 
 
 ### **Test One**
 * Markdown File
+
 ```
 `[a link`](url.com)
 
@@ -27,12 +28,17 @@ Welcome to my fourth tutorial! In this lesson we will compare two implementions 
 
 [`code]`](ucsd.edu)
 ```
+
 * Expected Output
+
 ```
 [`google.com, google.com, ucsd.edu]
 ```
+
 ### **Test Two**
+
 * Markdown File
+
 ```
 [a [nested link](a.com)](b.com)
 
@@ -40,13 +46,17 @@ Welcome to my fourth tutorial! In this lesson we will compare two implementions 
 
 [some escaped \[ brackets \]](example.com)
 ```
+
 * Expected Output
+
 ```
 [a.com, a.com(()), example.com]
 ```
 
 ### **Test Three**
+
 * Markdown File
+
 ```
 [this title text is really long and takes up more than 
 one line
@@ -73,7 +83,9 @@ And there's still some more text after that.
 
 And then there's more text
 ```
+
 * Expected Output
+
 ```
 [https://ucsd-cse15l-w22.github.io/]
 ```
@@ -82,7 +94,9 @@ And then there's more text
 
 ### **Link to Repository**
 * [click here](https://github.com/kyrafetter/markdown-parse) to access my MarkdownParse repository
-### **Test One**
+
+### **Tests**
+
 * `MarkdownParseTest.java` Code ([click here](https://github.com/kyrafetter/markdown-parse/commit/8ac6846c2fe4ca421183adadd8fe61c602a57c07) for the commit with these changes)
 
 ![Image](my-imp-test-code.png)
@@ -94,7 +108,9 @@ And then there's more text
 
 ### **Link to Repository**
 * [click here](https://github.com/christopherthomason/markdown-parse) to access the reviewed MarkdownParse repository
-### **Test One**
+
+### **Tests**
+
 * `MarkdownParseTest.java` Code
 
 ![Image](my-imp-test-code.png)
