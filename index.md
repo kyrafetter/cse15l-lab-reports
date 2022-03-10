@@ -9,6 +9,7 @@
 2. [Report 2: Debugging (January 28, 2022)](lab-report-2-week-4.html)
 3. [Report 3: It Works on My Machine (February 10, 2022)](lab-report-3-week-6.html)
 4. [Report 4: Code Review and Automating Testing (February 24, 2022)](lab-report-4-week-8.html)
+5. [Report 5: Debuggers and Using a Script to Run Many Files (March 9, 2022)](lab-report-5-week-10.html)
 
 ## Resources
 * [Course Canvas Webpage](https://canvas.ucsd.edu/courses/32416)
